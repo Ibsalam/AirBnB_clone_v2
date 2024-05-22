@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-start Flask application
+start simple flask application
 """
 
 from flask import Flask
@@ -21,7 +21,7 @@ def hbnb():
 
 @app.route('/c/<text>', strict_slashes=False)
 def cisfun(text):
-    """display “C ” followed by the value of the text variable"""
+    """display C followed by the value of the text variable"""
     return 'C ' + text.replace('_', ' ')
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-start Flask application
+start a simple flask application
 """
 
 from flask import Flask, render_template
